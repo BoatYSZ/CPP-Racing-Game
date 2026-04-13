@@ -1,0 +1,93 @@
+﻿  DraggingDemo.cpp
+  DrawingSurface.cpp
+  FlashingDemo.cpp
+  ImageMappingDemo.cpp
+  mainfunction.cpp
+  BaseEngine.cpp
+  DisplayableObject.cpp
+  FontManager.cpp
+  MyDemoA.cpp
+  SimpleImage.cpp
+  SimpleDemo.cpp
+  StarfieldDemo.cpp
+  TileManager.cpp
+  BouncingBall.cpp
+  BouncingBallMain.cpp
+  MazeDemoMain.cpp
+  MazeDemoObject.cpp
+  MazeDemoTileManager.cpp
+  ZoomingDemo.cpp
+  Generating Code...
+SimpleImage.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+ZoomingDemo.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+DraggingDemo.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+FlashingDemo.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+ImageMappingDemo.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+BaseEngine.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+ZoomingDemo.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+DraggingDemo.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+DrawingSurface.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+ImageMappingDemo.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+SimpleImage.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+ZoomingDemo.obj : error LNK2001: unresolved external symbol SDL_UpperBlit
+DraggingDemo.obj : error LNK2001: unresolved external symbol SDL_UpperBlit
+DrawingSurface.obj : error LNK2001: unresolved external symbol SDL_UpperBlit
+ImageMappingDemo.obj : error LNK2001: unresolved external symbol SDL_UpperBlit
+SimpleImage.obj : error LNK2001: unresolved external symbol SDL_UpperBlit
+DraggingDemo.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: bool __cdecl RawImageData::loadImage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,bool)" (?loadImage@RawImageData@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHHHH_N@Z)
+ImageMappingDemo.obj : error LNK2001: unresolved external symbol IMG_Load
+ZoomingDemo.obj : error LNK2001: unresolved external symbol IMG_Load
+TileManager.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+BouncingBall.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+MazeDemoMain.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+MazeDemoObject.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+MyDemoA.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+SimpleImage.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+SimpleDemo.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+StarfieldDemo.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+DrawingSurface.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+FlashingDemo.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+mainfunction.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+BaseEngine.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+TileManager.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+BouncingBall.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+MazeDemoMain.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+MazeDemoObject.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+MyDemoA.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+SimpleImage.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+SimpleDemo.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+StarfieldDemo.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+DrawingSurface.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+FlashingDemo.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+mainfunction.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+BaseEngine.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+DrawingSurface.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function "public: void __cdecl DrawingSurface::drawFastString(int,int,char const *,unsigned int,class Font *)" (?drawFastString@DrawingSurface@@QEAAXHHPEBDIPEAVFont@@@Z)
+MazeDemoMain.obj : error LNK2001: unresolved external symbol SDL_FillRect
+FlashingDemo.obj : error LNK2001: unresolved external symbol SDL_FillRect
+mainfunction.obj : error LNK2001: unresolved external symbol SDL_FillRect
+BaseEngine.obj : error LNK2001: unresolved external symbol SDL_FillRect
+StarfieldDemo.obj : error LNK2001: unresolved external symbol SDL_FillRect
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: int __cdecl BaseEngine::initialise(char const *,int,int,char const *,int)" (?initialise@BaseEngine@@QEAAHPEBDHH0H@Z)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: virtual void __cdecl BaseEngine::virtCreateWindows(char const *)" (?virtCreateWindows@BaseEngine@@UEAAXPEBD@Z)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: int __cdecl BaseEngine::mainLoop(void)" (?mainLoop@BaseEngine@@QEAAHXZ)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_WaitEvent referenced in function "public: int __cdecl BaseEngine::mainLoop(void)" (?mainLoop@BaseEngine@@QEAAHXZ)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: virtual void __cdecl BaseEngine::virtCreateWindows(char const *)" (?virtCreateWindows@BaseEngine@@UEAAXPEBD@Z)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_CreateTexture referenced in function "public: virtual void __cdecl BaseEngine::virtCreateWindows(char const *)" (?virtCreateWindows@BaseEngine@@UEAAXPEBD@Z)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_UpdateTexture referenced in function "public: void __cdecl DrawingSurface::mySDLUpdateTexture(struct SDL_Texture *)" (?mySDLUpdateTexture@DrawingSurface@@QEAAXPEAUSDL_Texture@@@Z)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: virtual void __cdecl BaseEngine::virtRenderScreen(void)" (?virtRenderScreen@BaseEngine@@UEAAXXZ)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: virtual void __cdecl BaseEngine::virtRenderScreen(void)" (?virtRenderScreen@BaseEngine@@UEAAXXZ)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: int __cdecl BaseEngine::mainLoop(void)" (?mainLoop@BaseEngine@@QEAAHXZ)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: int __cdecl BaseEngine::initialise(char const *,int,int,char const *,int)" (?initialise@BaseEngine@@QEAAHPEBDHH0H@Z)
+BaseEngine.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: int __cdecl BaseEngine::initialise(char const *,int,int,char const *,int)" (?initialise@BaseEngine@@QEAAHPEBDHH0H@Z)
+BaseEngine.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "public: int __cdecl BaseEngine::initialise(char const *,int,int,char const *,int)" (?initialise@BaseEngine@@QEAAHPEBDHH0H@Z)
+BaseEngine.obj : error LNK2019: unresolved external symbol TTF_Quit referenced in function "public: int __cdecl BaseEngine::initialise(char const *,int,int,char const *,int)" (?initialise@BaseEngine@@QEAAHPEBDHH0H@Z)
+FontManager.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: class Font * __cdecl FontManager::getFont(char const *,int)" (?getFont@FontManager@@QEAAPEAVFont@@PEBDH@Z)
+FontManager.obj : error LNK2019: unresolved external symbol TTF_CloseFont referenced in function "public: __cdecl Font::~Font(void)" (??1Font@@QEAA@XZ)
+SimpleImage.obj : error LNK2019: unresolved external symbol SDL_SetClipRect referenced in function "public: void __cdecl SimpleImage::renderImageBlit(class BaseEngine *,class DrawingSurface *,int,int,int,int,int,int,int,int)" (?renderImageBlit@SimpleImage@@QEAAXPEAVBaseEngine@@PEAVDrawingSurface@@HHHHHHHH@Z)
+SimpleImage.obj : error LNK2019: unresolved external symbol SDL_UpperBlitScaled referenced in function "public: void __cdecl SimpleImage::renderImageBlit(class BaseEngine *,class DrawingSurface *,int,int,int,int,int,int,int,int)" (?renderImageBlit@SimpleImage@@QEAAXPEAVBaseEngine@@PEAVDrawingSurface@@HHHHHHHH@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+..\SDL\libx86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\SDL\libx86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\SDL\libx86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\SDL\libx86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\ComputerScience\Spring\C++\Coursework Materials-20240304\CPPCoursework2023-v103\x64\Debug\CourseworkBase2020.exe : fatal error LNK1120: 27 unresolved externals
